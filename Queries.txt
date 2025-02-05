@@ -57,7 +57,7 @@ db.createCollection("tasks");
 db.tasks.insertMany([
   { task_id: 1, task_name: "React Model", task_date: ISODate("2020-10-05"), status: "completed", user_id: 1 },
   { task_id: 2, task_name: "Creating Database in MongoDB", task_date: ISODate("2020-10-10"), status: "not submitted", user_id: 2 },
-  { task_id: 3, task_name: "Node.Js Basics", task_date: ISODate("2020-10-15"), status: "completed", user_id: 3 }
+  { task_id: 3, task_name: "Node.Js Basics", task_date: ISODate("2020-11-01"), status: "completed", user_id: 3 }
 ]);
 
 -- 6 -- Create "company_drives" Collection and Insert Data
